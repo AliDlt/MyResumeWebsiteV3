@@ -6,23 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>علی دولت آبادی</title>
     <link rel="stylesheet" type="text/css" href="/style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css"
-      rel="stylesheet"
-      type="text/css"
-    />
     <link rel="icon" href="/resources/images/favicon.png" />
   </head>
   <body>
     <section class="page" id="home">
       <nav>
-        <img src="/resources/images/logo2.png" alt="alidolatabadi-logo" />
+        <img src="/resources/images/logo.png" alt="alidolatabadi-logo" />
         <ul>
           <li><a href="#home" class="active">خانه</a></li>
           <li><a href="#about">درباره من</a></li>
           <li><a href="#skills">مهارت ها</a></li>
           <li><a href="#services">خدمات</a></li>
-          <li><a href="#portfolio">نمونه کار ها</a></li>
+          <li><a href="#jobs">سوابق شغلی</a></li>
+          <!-- <li><a href="#portfolio">نمونه کار ها</a></li> -->
           <li><a href="#contact">تماس با من</a></li>
         </ul>
       </nav>
@@ -48,23 +44,29 @@
     </section>
     <section>
       <div class="row counter">
-        <div class="row">
-          <img class="counter-image" src="/resources/icons/desktop.png" />
-          <div class="column">
+        <div class="row counter-width">
+          <div class="row">
+            <img class="counter-image" src="/resources/icons/desktop.png" />
+          </div>
+          <div class="column counter-width">
             <h2 class="counter-number">34</h2>
             <h4 class="counter-text">پروژه انجام شده</h4>
           </div>
         </div>
-        <div class="row">
-          <img class="counter-image" src="/resources/icons/mobile.png" />
-          <div class="column">
+        <div class="row counter-width">
+          <div class="row">
+            <img class="counter-image" src="/resources/icons/mobile.png" />
+          </div>
+          <div class="column counter-width">
             <h2 class="counter-number">10</h2>
             <h4 class="counter-text">مشتری راضی</h4>
           </div>
         </div>
-        <div class="row">
-          <img class="counter-image" src="/resources/icons/mobile.png" />
-          <div class="column">
+        <div class="row counter-width">
+          <div class="row">
+            <img class="counter-image" src="/resources/icons/mobile.png" />
+          </div>
+          <div class="column counter-width">
             <h2 class="counter-number">36</h2>
             <h4 class="counter-text">ماه تجربه</h4>
           </div>
@@ -72,12 +74,15 @@
       </div>
     </section>
     <section class="page" id="about">
-      <div class="column about">
-        <img
-          class="about-image"
-          src="/resources/images/profile.jpg"
-          alt="alidolatabadi-picture"
-        />
+      <div class="row about">
+        <div class="column summary-image">
+          <img
+            class="about-image"
+            src="/resources/images/profile.jpg"
+            alt="alidolatabadi-picture"
+          />
+        </div>
+
         <div class="column summary-section">
           <h2 class="summary-title">درباره من</h2>
           <h3 class="summary-text">
@@ -90,35 +95,30 @@
             دارم و رفع نیاز و رضایت 100% مشتری از اولویت های من است. در حال
             یادگیری و تسلط به دنیای جاوا اسکریپت و فریمورک های آن نیز هستم.
           </h3>
-          <div class="column about-summary">
-            <div class="row">
-              <h4 class="summary-text">نام و نام خانوادگی</h4>
-              <hr />
-              <h4 class="summary-text">علی دولت آبادی</h4>
-            </div>
-            <div class="row">
-              <h4 class="summary-text">تاریخ تولد</h4>
-              <hr />
-              <h4 class="summary-text">29 مهر 1380</h4>
-            </div>
-            <div class="row">
-              <h4 class="summary-text">آدرس</h4>
-              <hr />
-              <h4 class="summary-text">ایران، تهران</h4>
-            </div>
-            <div class="row">
-              <h4 class="summary-text">ایمیل</h4>
-              <hr />
-              <a class="summary-text" href="mailto:alidlt1@yahoo.com"
-                >alidlt1@yahoo.com</a
-              >
-            </div>
-            <div class="row">
-              <h4 class="summary-text">شماره تماس</h4>
-              <hr />
-              <a class="summary-text" href="tel:+989391811885">+989391811885</a>
-            </div>
-          </div>
+        </div>
+      </div>
+      <div class="column about-summary">
+        <div class="row counter-width">
+          <h4 class="summary-text">نام و نام خانوادگی</h4>
+          <hr />
+          <h4 class="summary-text">علی دولت آبادی</h4>
+        </div>
+        <div class="row counter-width">
+          <h4 class="summary-text">آدرس</h4>
+          <hr />
+          <h4 class="summary-text">ایران، تهران</h4>
+        </div>
+        <div class="row counter-width">
+          <h4 class="summary-text">ایمیل</h4>
+          <hr />
+          <a class="summary-text" href="mailto:alidlt1@yahoo.com"
+            >alidlt1@yahoo.com</a
+          >
+        </div>
+        <div class="row">
+          <h4 class="summary-text">شماره تماس</h4>
+          <hr />
+          <a class="summary-text" href="tel:+989391811885">+989391811885</a>
         </div>
       </div>
     </section>
@@ -129,40 +129,42 @@
           هیچ صد در صدی وجود ندارد اما تلاشم همیشه بر این است که به بالاترین حد
           ممکن برسم
         </h2>
-        <div class="boxes">
-          <div class="box">
-            <h1 class="box-title">C#</h1>
-            <h4 class="box-description">90%</h4>
+        <div class="boxes-section">
+          <div class="boxes">
+            <div class="box">
+              <h1 class="box-title">C#</h1>
+              <h4 class="box-description">90%</h4>
+            </div>
+            <div class="box">
+              <h1 class="box-title">Asp.Net</h1>
+              <h4 class="box-description">70%</h4>
+            </div>
+            <div class="box">
+              <h1 class="box-title">.Net Maui</h1>
+              <h4 class="box-description">60%</h4>
+            </div>
+            <div class="box">
+              <h1 class="box-title">Xamarin Forms</h1>
+              <h4 class="box-description">80%</h4>
+            </div>
           </div>
-          <div class="box">
-            <h1 class="box-title">Asp.Net</h1>
-            <h4 class="box-description">70%</h4>
-          </div>
-          <div class="box">
-            <h1 class="box-title">.Net Maui</h1>
-            <h4 class="box-description">60%</h4>
-          </div>
-          <div class="box">
-            <h1 class="box-title">Xamarin Forms</h1>
-            <h4 class="box-description">80%</h4>
-          </div>
-        </div>
-        <div class="boxes">
-          <div class="box">
-            <h1 class="box-title">WPF</h1>
-            <h4 class="box-description">90%</h4>
-          </div>
-          <div class="box">
-            <h1 class="box-title">Winforms</h1>
-            <h4 class="box-description">90%</h4>
-          </div>
-          <div class="box">
-            <h1 class="box-title">Html/Css/JS</h1>
-            <h4 class="box-description">60%</h4>
-          </div>
-          <div class="box">
-            <h1 class="box-title">Wordpress</h1>
-            <h4 class="box-description">80%</h4>
+          <div class="boxes">
+            <div class="box">
+              <h1 class="box-title">WPF</h1>
+              <h4 class="box-description">90%</h4>
+            </div>
+            <div class="box">
+              <h1 class="box-title">Winforms</h1>
+              <h4 class="box-description">90%</h4>
+            </div>
+            <div class="box">
+              <h1 class="box-title">Html/Css/JS</h1>
+              <h4 class="box-description">60%</h4>
+            </div>
+            <div class="box">
+              <h1 class="box-title">Wordpress</h1>
+              <h4 class="box-description">80%</h4>
+            </div>
           </div>
         </div>
       </div>
@@ -213,15 +215,120 @@
     <div class="row counter project">
       <h3 class="project-title">آیا پروژه ای دارید؟</h3>
       <h4 class="project-description">
-        برای پیاده سازی آن به زیباترین شکل و با بهترین عملکرد با من در تماس باشید.
+        برای پیاده سازی آن به زیباترین شکل و با بهترین عملکرد با من در تماس
+        باشید.
       </h4>
       <button class="button project-btn">انجام پروژه</button>
     </div>
+    <section class="page column" id="jobs">
+      <h1 class="portfolio-wrap">سوابق شغلی من</h1>
+      <div class="work-section column">
+        <div class="work">
+          <h2 class="work-h2">مسئول دپارتمان آیتی و فول استک دولوپر</h2>
+          <h5 class="work-h5">RoboMed</h5>
+          <h6 class="work-h6">فروردین 1399 تاکنون</h6>
+        </div>
+        <div class="work">
+          <h2 class="work-h2">مسئول دپارتمان آیتی و فول استک دولوپر</h2>
+          <h5 class="work-h5">کلینیک روانشناختی باور</h5>
+          <h6 class="work-h6">مهر 1401 تاکنون</h6>
+        </div>
+        <div class="work">
+          <h2 class="work-h2">طراحی و پشتیبانی وبسایت</h2>
+          <h5 class="work-h5">خشکبار عرشیا</h5>
+          <h6 class="work-h6">فروردین 1398 تا تیر 1399</h6>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="column" id="portfolio">
+      <h1 class="portfolio-wrap">نمونه کار های من</h1>
+      <div class="wrapper">
+        <div class="tabs">
+          <div class="tab column">
+            <input
+              type="radio"
+              name="css-tabs"
+              id="tab-1"
+              checked
+              class="tab-switch"
+            />
+            <label for="tab-1" class="tab-label">وبسایت ها</label>
+            <div class="tab-content">
+              <div class="portfolio-section">
+                <div class="portfolio">
+                  <h2 class="potfolio-h2">وبسایت شرکتی RoboMed</h2>
+                  <h5 class="potfolio-h5">معرفی شرکت و ...</h5>
+                </div>
+                <div class="portfolio">
+                  <h2 class="potfolio-h2">
+                    وبسایت چندمنظوره کلینیک روانشناختی باور
+                  </h2>
+                  <h5 class="potfolio-h5">
+                    فروشگاه،معرفی شرکت و مشاورین و ...
+                  </h5>
+                </div>
+                <div class="portfolio">
+                  <h2 class="potfolio-h2">وبسایت فروشگاهی داروخانه دکتر سما</h2>
+                  <h5 class="potfolio-h5">
+                    در این وبسایت شما می توانید محصولات آرایشی و بهداشتی را
+                    خریداری کنید.
+                  </h5>
+                </div>
+                <div class="portfolio">
+                  <h2 class="potfolio-h2">وبسایت فروشگاهی خشکبار عرشیا</h2>
+                  <h5 class="potfolio-h5">فروشگاه محصولات آجیل و خشکبار</h5>
+                </div>
+                <div class="portfolio">
+                  <h2 class="potfolio-h2">وبسایت شرکتی نیکتوران</h2>
+                  <h5 class="potfolio-h5">توضیحات</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab">
+            <input type="radio" name="css-tabs" id="tab-2" class="tab-switch" />
+            <label for="tab-2" class="tab-label">اپلیکیشن ها</label>
+            <div class="tab-content">
+              <div class="portfolio-section">
+                <div class="portfolio">
+                  <h2 class="potfolio-h2">وبسایت شرکتی RoboMed</h2>
+                  <h5 class="potfolio-h5">معرفی شرکت و ...</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab">
+            <input type="radio" name="css-tabs" id="tab-3" class="tab-switch" />
+            <label for="tab-3" class="tab-label">نرم افزار ها</label>
+            <div class="tab-content"></div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <section class="page column" id="contact">
+      <h1 class="portfolio-wrap">تماس با من</h1>
+      <div class="column informations">
+        <a class="information" href="tel:+989391811885">
+          <span class="information-icon">
+            <i class="fas fa-phone"></i>
+          </span>
+          <h2 class="information-title">شماره تماس</h2>
+          <h2 class="information-title">09391811885</h2>
+        </a>
+        <a class="information" href="mailto:alidlt1@yahoo.com">
+          <span class="information-icon">
+            <i class="fas fa-envelope"></i>
+          </span>
+          <h2 class="information-title">ایمیل</h2>
+          <h2 class="information-title">alidlt1@yahoo.com</h2>
+        </a>
+      </div>
+    </section>
+    <footer>
+      <h3>
+        تمامی حقوق مادی و معنوی این وبسایت متعلق به علی دولت آبادی می باشد.
+      </h3>
+    </footer>
   </body>
-  <footer></footer>
-  <script
-    src="https://kit.fontawesome.com/a62385ce8f.js"
-    crossorigin="anonymous"
-    async
-  ></script>
 </html>
