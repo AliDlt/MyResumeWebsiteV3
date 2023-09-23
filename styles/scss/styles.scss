@@ -1,0 +1,28 @@
+// partial
+@import 'partial/about.scss';
+@import 'partial/box.scss';
+@import 'partial/cards.scss';
+@import 'partial/counter.scss';
+@import 'partial/information.scss';
+@import 'partial/portfolio.scss';
+@import 'partial/projects.scss';
+@import 'partial/projects.scss';
+@import 'partial/services.scss';
+@import 'partial/skills.scss';
+@import 'partial/summary.scss';
+@import 'partial/tabs.scss';
+@import 'partial/work.scss';
+
+// main
+@import 'main/main.scss';
+@import 'main/footer.scss';
+
+// header
+@import 'header/header.scss';
+
+// devices
+@import 'devices/xs.scss';
+@import 'devices/s.scss';
+@import 'devices/m.scss';
+@import 'devices/l.scss';
+@import 'devices/xl.scss';

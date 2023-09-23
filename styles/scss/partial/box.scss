@@ -1,0 +1,66 @@
+.boxes-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 25px 10px 25px;
+  margin: 15px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 5px var(--blue-color) solid;
+  cursor: default;
+}
+
+.box:hover {
+  animation: bounce 1s;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.box-title {
+  color: var(--blue-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.box-description {
+  color: var(--blue-color);
+  text-align: center;
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 700;
+}

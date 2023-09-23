@@ -1,0 +1,24 @@
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 30px;
+  background-color: #ffd849;
+}
+.counter-image {
+  height: 64px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+.counter-number,
+.counter-text {
+  color: var(--blue-color);
+  margin-right: 15px;
+  font-size: 20px;
+}
+.counter-width {
+  min-width: 250px;
+  justify-content: center;
+}

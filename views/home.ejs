@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%- pageTitle -%></title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+    <link rel="icon" href="/favicon.png" />
+  </head>
+  <body>
+    <div><%- include('./includes/navbar.ejs') %></div>
+
+    <div><%- include('./includes/header.ejs') %></div>
+
+    <div><%- include('./includes/counter.ejs') %></div>
+
+    <div><%- include('./includes/about.ejs') %></div>
+    <div><%- include('./includes/skills.ejs') %></div>
+    <div><%- include('./includes/services.ejs') %></div>
+
+    <div class="row counter project">
+      <h3 class="project-title">آیا پروژه ای دارید؟</h3>
+      <h4 class="project-description">
+        برای پیاده سازی آن به زیباترین شکل و با بهترین عملکرد با من در تماس
+        باشید.
+      </h4>
+      <button class="button project-btn">انجام پروژه</button>
+    </div>
+
+    <%- include('./includes/jobs.ejs') %> <%-
+    include('./includes/portfolio.ejs')%> <%- include('./includes/contact.ejs')
+    %> <%- include('./includes/footer.ejs') %>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>

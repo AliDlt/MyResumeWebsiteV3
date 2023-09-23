@@ -1,0 +1,115 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .counter {
+      flex-direction: row;
+      margin: 70px 0px 50px 0px;
+    }
+    .counter .row {
+      margin: 10px;
+    }
+    .content {
+      flex-direction: row;
+    }
+    .about-h1 {
+      font-size: 75px;
+    }
+    .content img {
+      height: 400px;
+    }
+    .about {
+      flex-direction: row;
+    }
+    .about-image {
+      height: 450px;
+    }
+    .summary-title {
+      font-size: 60px;
+    }
+    .summary-text {
+      font-size: 20px;
+    }
+  
+    .skills-title {
+      font-size: 60px;
+    }
+    .skills-description {
+      font-size: 20px;
+    }
+    .skills-section {
+      flex-direction: column;
+    }
+    .box {
+      height: 200px;
+      width: 200px;
+    }
+    .boxes-section {
+      flex-direction: column;
+    }
+    .boxes {
+      flex-direction: row;
+    }
+    .box-title {
+      font-size: 20px;
+    }
+    .box-description {
+      font-size: 15px;
+    }
+  
+    .services-title {
+      font-size: 60px;
+    }
+  
+    .cards {
+      flex-direction: row;
+    }
+  
+    .card {
+      width: 300px;
+      height: 400px;
+    }
+  
+    .card-image {
+      height: 128px;
+    }
+  
+    .card-title {
+      font-size: 20px;
+    }
+  
+    .card-description {
+      font-size: 18px;
+    }
+  
+    .portfolio-wrap {
+      font-size: 60px;
+    }
+  
+    .work-section {
+      flex-direction: row;
+    }
+    .work {
+      width: 100%;
+      min-height: 300px;
+    }
+  
+    .work-h2 {
+      font-size: 1.2rem;
+    }
+    .work-h5,
+    .work-h6 {
+      font-size: 16px;
+    }
+  
+    .informations {
+      flex-direction: row;
+    }
+  
+    .information {
+      width: 70%;
+      height: 80px;
+    }
+  
+    .inforamtion-title {
+      font-size: 20px;
+    }
+  }

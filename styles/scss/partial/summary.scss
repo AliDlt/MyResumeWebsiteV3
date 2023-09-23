@@ -1,0 +1,25 @@
+
+.summary-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .about .summary-image {
+    display: flex;
+    flex: 1 0 0;
+  }
+  .summary-title {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+  }
+  
+  .summary-text {
+    text-align: right;
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+  }
