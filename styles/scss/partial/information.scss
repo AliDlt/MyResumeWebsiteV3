@@ -1,58 +1,94 @@
 .informations {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.information {
+  display: flex;
+  background-color: #f3c623;
+  width: 70%;
+  height: 80px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.information:hover {
+  animation: transformy 1s;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.09);
+}
+
+@keyframes transformy {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
   }
-  
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+a h2 .inforamtion-title {
+  color: var(--blue-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5px;
+  font-size: 10px;
+  background-color: red;
+}
+
+.inforamtion-icon {
+  color: var(--blue-color);
+  text-align: center;
+  margin: 0px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .informations {
+    flex-direction: column;
+    margin-top: 20px;
+  }
   .information {
-    display: flex;
-    background-color: #f3c623;
+    width: 100%;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .informations {
+    flex-direction: row;
+  }
+
+  .information {
     width: 70%;
     height: 80px;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 20px;
-    margin: 5px;
-    border-radius: 5px;
-    cursor: pointer;
   }
-  
-  .information:hover {
-    animation: transformy 1s;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.09);
+
+  .inforamtion-title {
+    font-size: 20px;
   }
-  
-  @keyframes transformy {
-    0%,
-    20%,
-    50%,
-    80%,
-    100% {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(-10px);
-    }
-    60% {
-      transform: translateY(-5px);
-    }
-  }
-  
-  a h2 .inforamtion-title {
-    color: var(--blue-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 5px;
-    font-size: 10px;
-    background-color: red;
-  }
-  
-  .inforamtion-icon {
-    color: var(--blue-color);
-    text-align: center;
-    margin: 0px;
-  }
+}

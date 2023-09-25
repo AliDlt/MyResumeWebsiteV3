@@ -1,19 +1,80 @@
-
 .skills-section {
-    background-color: var(--yellow-color);
-    padding: 20px;
-    margin-top: 50px;
-    display: flex;
-  }
-  
+  background-color: var(--yellow-color);
+  padding: 20px;
+  margin-top: 50px;
+  display: flex;
+}
+
+.skills-title {
+  color: var(--blue-color);
+  margin: 15px;
+  font-size: 60px;
+}
+
+.skills-description {
+  color: var(--blue-color);
+  margin: 15px;
+  font-size: 20px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
   .skills-title {
-    color: var(--blue-color);
-    margin: 15px;
+    font-size: 30px;
+  }
+  .skills-description {
+    font-size: 16px;
+  }
+  .skills-section {
+    flex-direction: column;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .skills-title {
+    font-size: 30px;
+  }
+  .skills-description {
+    font-size: 13px;
+  }
+  .skills-section {
+    flex-direction: column;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .skills-title {
+    font-size: 40px;
+  }
+  .skills-description {
+    font-size: 14px;
+  }
+  .skills-section {
+    flex-direction: column;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .skills-title {
+    font-size: 50px;
+  }
+  .skills-description {
+    font-size: 17px;
+  }
+  .skills-section {
+    flex-direction: column;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .skills-title {
     font-size: 60px;
   }
-  
   .skills-description {
-    color: var(--blue-color);
-    margin: 15px;
     font-size: 20px;
   }
+  .skills-section {
+    flex-direction: column;
+  }
+}

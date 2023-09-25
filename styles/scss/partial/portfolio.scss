@@ -1,36 +1,68 @@
 .portfolio-wrap {
-    color: white;
+  color: white;
+  font-size: 60px;
+}
+
+.portfolio-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--yellow-color);
+  width: 100%;
+  border-radius: 10px;
+  margin: 25px;
+  padding: 25px;
+}
+
+.potfolio-image:hover {
+  animation: bounce 1s;
+}
+
+.potfolio-h2 {
+  font-size: 1.2rem;
+  margin: 15px;
+  text-align: center;
+}
+.potfolio-h5 {
+  margin: 15px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .portfolio-wrap {
+    font-size: 40px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .portfolio-wrap {
+    font-size: 40px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .portfolio-wrap {
+    font-size: 40px;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .portfolio-wrap {
+    font-size: 50px;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .portfolio-wrap {
     font-size: 60px;
   }
-  
-  .portfolio-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  .portfolio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--yellow-color);
-    width: 100%;
-    border-radius: 10px;
-    margin: 25px;
-    padding: 25px;
-  }
-  
-  .potfolio-image:hover {
-    animation: bounce 1s;
-  }
-  
-  .potfolio-h2 {
-    font-size: 1.2rem;
-    margin: 15px;
-    text-align: center;
-  }
-  .potfolio-h5 {
-    margin: 15px;
-  }
+}

@@ -98,3 +98,51 @@ hr {
   background-color: white;
   margin-bottom: 20px;
 }
+@media only screen and (max-width: 600px) {
+  .content {
+    flex-direction: column;
+    margin-right: 0px;
+  }
+  .content img {
+    height: 200px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .content {
+    flex-direction: column;
+    margin: 0px;
+  }
+  .content img {
+    height: 200px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .content {
+    flex-direction: row;
+  }
+  .content img {
+    height: 250px;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .content {
+    flex-direction: row;
+  }
+  .content img {
+    height: 350px;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .content {
+    flex-direction: row;
+  }
+
+  .content img {
+    height: 400px;
+  }
+}

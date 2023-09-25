@@ -1,30 +1,123 @@
 .work-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--yellow-color);
+  width: 100%;
+  min-height: 300px;
+  border-radius: 10px;
+  margin: 25px;
+  padding: 25px;
+}
+
+.work-h2 {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 15px;
+}
+.work-h5,
+.work-h6 {
+  text-align: center;
+  font-size: 16px;
+  margin: 15px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .work-section {
+    flex-direction: column;
+    padding: 30px;
   }
   .work {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--yellow-color);
     width: 100%;
-    min-height: 300px;
-    border-radius: 10px;
-    margin: 25px;
-    padding: 25px;
+    min-height: 200px;
   }
-  
+
   .work-h2 {
-    text-align: center;
     font-size: 1.2rem;
-    margin: 15px;
   }
   .work-h5,
   .work-h6 {
-    text-align: center;
     font-size: 16px;
-    margin: 15px;
   }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .work-section {
+    flex-direction: column;
+  }
+  .work {
+    width: 100%;
+    min-height: 200px;
+  }
+
+  .work-h2 {
+    font-size: 1.2rem;
+  }
+  .work-h5,
+  .work-h6 {
+    font-size: 16px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .work-section {
+    flex-direction: row;
+  }
+  .work {
+    width: 100%;
+    min-height: 300px;
+  }
+
+  .work-h2 {
+    font-size: 1.1rem;
+  }
+  .work-h5,
+  .work-h6 {
+    font-size: 16px;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .work-section {
+    flex-direction: row;
+  }
+  .work {
+    width: 100%;
+    min-height: 300px;
+  }
+
+  .work-h2 {
+    font-size: 1.2rem;
+  }
+  .work-h5,
+  .work-h6 {
+    font-size: 16px;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .work-section {
+    flex-direction: row;
+  }
+  .work {
+    width: 100%;
+    min-height: 300px;
+  }
+
+  .work-h2 {
+    font-size: 1.2rem;
+  }
+  .work-h5,
+  .work-h6 {
+    font-size: 16px;
+  }
+}
