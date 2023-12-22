@@ -1,7 +1,6 @@
 // partial
 @import 'partial/_about.scss';
-@import 'partial/_box.scss';
-@import 'partial/_cards.scss';
+@import 'partial/_progressBar.scss';
 @import 'partial/_counter.scss';
 @import 'partial/_information.scss';
 @import 'partial/_portfolio.scss';
@@ -12,8 +11,10 @@
 @import 'partial/_summary.scss';
 @import 'partial/_tabs.scss';
 @import 'partial/_work.scss';
+@import 'partial/_navbar.scss';
 
 // main
 @import 'main/_main.scss';
+@import 'main/_404.scss';
 @import 'main/_footer.scss';
 @import 'main/_header.scss';

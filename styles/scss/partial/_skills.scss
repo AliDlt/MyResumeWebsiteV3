@@ -1,80 +1,106 @@
-.skills-section {
-  background-color: var(--yellow-color);
-  padding: 20px;
-  margin-top: 50px;
-  display: flex;
-}
-
 .skills-title {
-  color: var(--blue-color);
-  margin: 15px;
+  margin-top: 50px;
+  color: white;
   font-size: 60px;
 }
 
 .skills-description {
-  color: var(--blue-color);
-  margin: 15px;
+  color: white;
   font-size: 20px;
+}
+
+.skill-container {
+  background-color: white;
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+
+  p {
+    color: var(--blue-color);
+    font-size: 22px;
+    font-weight: bold;
+    border-bottom: 2.5px solid var(--yellow-color);
+    padding-bottom: 5px;
+    width: fit-content;
+    margin-right: 30px;
+  }
+}
+
+.skills-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+}
+
+.skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: calc(33.333% - 2%);
+  margin: 0 1%;
+}
+
+.progress-wrapper {
+  width: 90%;
+  margin: 25px 0;
+}
+
+.progress-wrapper .progress-title {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.progress-wrapper .progress-title .level {
+  color: #9C9C9C;
+}
+
+.progress-wrapper .progress-title .name {
+  color: #354459;
+  font-weight: bold;
+}
+
+.progress {
+  direction: ltr;
+  background-color: #f1f1f1;
+  height: 5px;
+}
+
+.progress .progressbar {
+  width: 80%;
+  border-radius: 500px;
+  background-color: var(--yellow-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+  white-space: nowrap;
+  height: 5px;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .skills-title {
-    font-size: 30px;
-  }
-  .skills-description {
-    font-size: 16px;
-  }
-  .skills-section {
-    flex-direction: column;
-  }
-}
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .skills-title {
-    font-size: 30px;
-  }
-  .skills-description {
-    font-size: 13px;
-  }
-  .skills-section {
-    flex-direction: column;
+  .skill {
+    width: 100%;
+    margin-bottom: 15px;
   }
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .skills-title {
-    font-size: 40px;
-  }
-  .skills-description {
-    font-size: 14px;
-  }
-  .skills-section {
-    flex-direction: column;
-  }
-}
+@media only screen and (min-width: 768px) {}
+
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .skills-title {
-    font-size: 50px;
-  }
-  .skills-description {
-    font-size: 17px;
-  }
-  .skills-section {
-    flex-direction: column;
-  }
-}
+@media only screen and (min-width: 992px) {}
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .skills-title {
-    font-size: 60px;
-  }
-  .skills-description {
-    font-size: 20px;
-  }
-  .skills-section {
-    flex-direction: column;
-  }
-}
+@media only screen and (min-width: 1200px) {}

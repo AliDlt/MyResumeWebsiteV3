@@ -1,0 +1,89 @@
+.navbar-wrapper {
+    position: fixed;
+    margin: 0 auto;
+    z-index: 100;
+    transition: 0.2s ease-in-out;
+    top: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 35px;
+        border-radius: 15px;
+        background: rgba(164, 164, 164, 0.52);
+        box-shadow: 0 4px 30px rgba(123, 123, 123, 0.1);
+        backdrop-filter: blur(9.5px);
+        -webkit-backdrop-filter: blur(9.5px);
+        border: 1px solid rgba(193, 193, 193, 0.3);
+        font-size: 18px;
+
+        .navbar-list {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            column-gap: 20px;
+            flex-grow: 1;
+
+            li {
+                a {
+                    display: block;
+                }
+            }
+        }
+
+        .hamburger-menu {
+            display: none; // Initially hide for larger screens
+            cursor: pointer;
+            height: 24px;
+
+            i {
+                font-size: 24px;
+                color: white;
+            }
+        }
+    }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+@media (max-width: 768px) {
+    .navbar-wrapper .navbar {
+        flex-direction: column; // Stack items vertically for smaller screens
+        padding: 10px 15px;
+
+        .navbar-list {
+            display: none; // Hide the menu for smaller screens
+            flex-direction: column;
+            position: absolute;
+            top: 80px; // Adjust as needed
+            left: 0;
+            width: 100%;
+            background-color: rgba(164, 164, 164, 0.52);
+            box-shadow: 0 4px 30px rgba(123, 123, 123, 0.1);
+            backdrop-filter: blur(9.5px);
+            -webkit-backdrop-filter: blur(9.5px);
+            border: 1px solid rgba(193, 193, 193, 0.3);
+            border-radius: 15px;
+
+            li {
+                a {
+                    padding: 15px; // Adjust as needed
+                }
+            }
+        }
+
+        .hamburger-menu {
+            display: block; // Show the hamburger button
+        }
+    }
+}

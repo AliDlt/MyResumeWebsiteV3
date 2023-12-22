@@ -1,0 +1,26 @@
+
+.notfound-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.notfound-image{
+width: 400px;
+}
+.notfound-p{
+color: white;
+font-size: 24px;
+padding-top: 8px;
+}
+.notfound-des{
+color: white;
+font-size: 24px;
+padding-top: 8px;
+}
+.notfound-des a{
+color: #f3c623;
+font-size: 22px;
+padding-top: 8px;
+}
