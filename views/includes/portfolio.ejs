@@ -1,57 +1,65 @@
-<section class="column" id="portfolio">
+<section class="page column" id="portfolio">
   <h1 class="portfolio-wrap">نمونه کار های من</h1>
-  <div class="wrapper">
-    <div class="tabs">
-      <div class="tab column">
-        <input type="radio" name="css-tabs" id="tab-1" checked class="tab-switch" />
-        <label for="tab-1" class="tab-label">وبسایت ها</label>
-        <div class="tab-content">
-          <div class="portfolio-section">
-            <div class="portfolio">
-              <h2 class="potfolio-h2">وبسایت شرکتی RoboMed</h2>
-              <h5 class="potfolio-h5">معرفی شرکت و ...</h5>
-            </div>
-            <div class="portfolio">
-              <h2 class="potfolio-h2">
-                وبسایت چندمنظوره کلینیک روانشناختی باور
-              </h2>
-              <h5 class="potfolio-h5">فروشگاه،معرفی شرکت و مشاورین و ...</h5>
-            </div>
-            <div class="portfolio">
-              <h2 class="potfolio-h2">وبسایت فروشگاهی داروخانه دکتر سما</h2>
-              <h5 class="potfolio-h5">
-                در این وبسایت شما می توانید محصولات آرایشی و بهداشتی را خریداری
-                کنید.
-              </h5>
-            </div>
-            <div class="portfolio">
-              <h2 class="potfolio-h2">وبسایت فروشگاهی خشکبار عرشیا</h2>
-              <h5 class="potfolio-h5">فروشگاه محصولات آجیل و خشکبار</h5>
-            </div>
-            <div class="portfolio">
-              <h2 class="potfolio-h2">وبسایت شرکتی نیکتوران</h2>
-              <h5 class="potfolio-h5">توضیحات</h5>
-            </div>
-          </div>
-        </div>
+  <div class="tab">
+    <button class="tablinks" id="website-btn" onclick="openTab(event, 'website')">وبسایت ها</button>
+    <button class="tablinks" onclick="openTab(event, 'mobile')">اپلیکیشن ها</button>
+    <button class="tablinks" onclick="openTab(event, 'software')">نرم افزار ها</button>
+  </div>
+
+  <div id="website" class="tabcontent">
+    <div class="card my-popup">
+      <div class="card-image">
+        <img src="/images/ax.png" alt="Card Image">
       </div>
-      <div class="tab">
-        <input type="radio" name="css-tabs" id="tab-2" class="tab-switch" />
-        <label for="tab-2" class="tab-label">اپلیکیشن ها</label>
-        <div class="tab-content">
-          <div class="portfolio-section">
-            <div class="portfolio">
-              <h2 class="potfolio-h2">وبسایت شرکتی RoboMed</h2>
-              <h5 class="potfolio-h5">معرفی شرکت و ...</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="tab">
-        <input type="radio" name="css-tabs" id="tab-3" class="tab-switch" />
-        <label for="tab-3" class="tab-label">نرم افزار ها</label>
-        <div class="tab-content"></div>
+      <div class="card-text">
+        <h3>Title</h3>
+        <p>Description fvrfdsfgoes here</p>
       </div>
     </div>
   </div>
+
+  <div id="mobile" class="tabcontent">
+    <div class="card my-popup">
+      <div class="card-image">
+        <img src="/images/ax.png" alt="Card Image">
+      </div>
+      <div class="card-text">
+        <h3>Title</h3>
+        <p>Description goes here</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="software" class="tabcontent">
+    <div class="card my-popup">
+      <div class="card-image">
+        <img src="/images/ax.png" alt="Card Image">
+      </div>
+      <div class="card-text">
+        <h3>Title</h3>
+        <p>Description goes herDescription goes herDescription goes herDescription goes herDescription goes
+          herDescription goes herDescription goes herDescription goes herDescription goes here</p>
+      </div>
+      <div class="card-content">
+        <div class="splide" style="max-height: 300px;">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide"><img src="/images/ax.png" alt="Card Image">
+              </li>
+              <li class="splide__slide"><img src="/images/xamarin.jpg" alt="Card Image">
+              </li>
+              <li class="splide__slide"><img src="/images/maui.jpg" alt="Card Image">
+              </li>
+              <li class="splide__slide"><img src="/images/logo.png" alt="Card Image">
+              </li>
+              <li class="splide__slide"><img src="/images/html.jpg" alt="Card Image">
+              </li>
+              <li class="splide__slide"><img src="/images/html.jpg" alt="Card Image">
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
 </section>

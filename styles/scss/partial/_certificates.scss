@@ -1,0 +1,79 @@
+#certificates {
+    height: auto;
+    margin-top: 50px;
+}
+
+.cert-title {
+    font-size: 60px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.cert-container {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    max-width: 80%;
+}
+
+.pswp-gallery__item {
+    justify-content: center;
+    height: 200px;
+}
+
+.pswp-gallery__item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.pswp__img {
+    object-fit: contain;
+}
+
+.pswp-gallery {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.pswp__dynamic-caption {
+    color: #fff;
+    width: 100%;
+}
+
+.pswp__dynamic-caption a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.gallery_card {
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid var(--yellow-color);
+    padding: 0;
+    transition: all 0.3s ease-in-out;
+
+    .gallery_card_text {
+        padding: 15px 30px;
+        text-align: center;
+
+        span {
+            color: var(--blue-color) !important;
+        }
+    }
+
+    &:hover {
+        scale: 1.03;
+        box-shadow: var(--yellow-yavash) 0px 19px 38px, white 0px 15px 12px;
+    }
+}

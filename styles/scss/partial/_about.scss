@@ -47,7 +47,10 @@
 .about-image {
   height: 450px;
   border-radius: 5px;
+  animation: toAnimation 1.8s infinite alternate-reverse;
 }
+
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

@@ -1,11 +1,10 @@
-const controller = new ScrollMagic.Controller();
-
 document.addEventListener("DOMContentLoaded", function () {
+  const controller = new ScrollMagic.Controller();
   const counters = document.querySelectorAll(".counter");
   const targetNumbers = [134, 134, 48];
   const options = {
     startVal: 0,
-    duration: 2500,
+    duration: 5000,
   };
 
   function startCounter(target, element, options) {

@@ -4,7 +4,7 @@
   margin-top: 40px;
 }
 
-.cards {
+.service-cards {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -14,7 +14,7 @@
   width: 80%;
 }
 
-.card {
+.service-card {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -28,17 +28,18 @@
   background-color: white;
   border-bottom: #292c3f solid 2px;
   margin: 25px;
+  transition: all 0.3s ease-in-out;
 }
 
-.card:hover {
+.service-card:hover {
   box-shadow: var(--yellow-yavash) 0px 19px 38px, white 0px 15px 12px;
 }
 
-.card-image {
+.service-card-image {
   height: 128px;
 }
 
-.card-image:hover {
+.service-card-image:hover {
   animation: bounce 1s;
 }
 
@@ -61,11 +62,11 @@
   }
 }
 
-.card-title {
+.service-card-title {
   font-size: 20px;
 }
 
-.card-description {
+.service-card-description {
   text-align: center;
   font-size: 18px;
 }
@@ -76,24 +77,24 @@
     font-size: 40px;
   }
 
-  .cards {
+  .service-cards {
     flex-direction: column;
   }
 
-  .card {
+  .service-card {
     width: 250px;
     height: 350px;
   }
 
-  .card-image {
+  .service-card-image {
     height: 100px;
   }
 
-  .card-title {
+  .service-card-title {
     font-size: 18px;
   }
 
-  .card-description {
+  .service-card-description {
     font-size: 16px;
   }
 }
@@ -104,24 +105,24 @@
     font-size: 40px;
   }
 
-  .cards {
+  .service-cards {
     flex-direction: column;
   }
 
-  .card {
+  .service-card {
     width: 250px;
     height: 350px;
   }
 
-  .card-image {
+  .service-card-image {
     height: 100px;
   }
 
-  .card-title {
+  .service-card-title {
     font-size: 18px;
   }
 
-  .card-description {
+  .service-card-description {
     font-size: 16px;
   }
 }
@@ -132,24 +133,24 @@
     font-size: 40px;
   }
 
-  .cards {
+  .service-cards {
     flex-direction: row;
   }
 
-  .card {
+  .service-card {
     width: 200px;
     height: 300px;
   }
 
-  .card-image {
+  .service-card-image {
     height: 80px;
   }
 
-  .card-title {
+  .service-card-title {
     font-size: 16px;
   }
 
-  .card-description {
+  .service-card-description {
     font-size: 14px;
   }
 }
@@ -160,24 +161,24 @@
     font-size: 50px;
   }
 
-  .cards {
+  .service-cards {
     flex-direction: row;
   }
 
-  .card {
+  .service-card {
     width: 250px;
     height: 350px;
   }
 
-  .card-image {
+  .service-card-image {
     height: 100px;
   }
 
-  .card-title {
+  .service-card-title {
     font-size: 18px;
   }
 
-  .card-description {
+  .service-card-description {
     font-size: 16px;
   }
 }
@@ -188,24 +189,24 @@
     font-size: 60px;
   }
 
-  .cards {
+  .service-cards {
     flex-direction: row;
   }
 
-  .card {
+  .service-card {
     width: 300px;
     height: 400px;
   }
 
-  .card-image {
+  .service-card-image {
     height: 128px;
   }
 
-  .card-title {
+  .service-card-title {
     font-size: 20px;
   }
 
-  .card-description {
+  .service-card-description {
     font-size: 18px;
   }
 }
